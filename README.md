@@ -7,9 +7,13 @@ Removes Spiders and Cave Spiders from the Game
 
 ## Built With
 Kotlin:       1.4.20
+
 Groovy:       2.5.12
+
 Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
+
 JVM:          11.0.11 (AdoptOpenJDK 11.0.11+9)
+
 
 (JVM is important since Gradle6.8.1 doesn't support java version 16 yet.)
 
@@ -34,6 +38,9 @@ JVM:          11.0.11 (AdoptOpenJDK 11.0.11+9)
 
 <small><small>v1.1.1 - 1.16.5</small></small>
 * Removed System.out.println() in main source file since it clogged up the console
+
+<small><small>v1.2 - 1.16.5</small></small>
+* Added String to Village Chest Loot Tables
 
 ## Planned Changes
 * Add String and Spider Eye to Village Loot Tables
