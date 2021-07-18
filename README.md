@@ -32,3 +32,9 @@ JVM:          11.0.11 (AdoptOpenJDK 11.0.11+9)
     * underwater_ruin_small.json
     * woodland_mansion.json
 
+<small><small>v1.1.1 - 1.16.5</small></small>
+* Removed System.out.println() in main source file since it clogged up the console
+
+## Planned Changes
+* Add String and Spider Eye to Village Loot Tables
+* Upgrade to 1.17 once the forge version releases
