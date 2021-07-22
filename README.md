@@ -1,21 +1,19 @@
 # NottAMinecraftSpiderRemover
 
-Removes Spiders and Cave Spiders from the Game
+Removes Spiders and Cave Spiders from the Minecraft Survival Mode
+
+Note: They can still be spawned with the ```/summon minecraft:spider``` and ```/summon minecraft:cave_spider``` commands ingame
 
 ## How to Build
 * Run ```.\gradlew build``` in the mod directory
 
+Note: I have set gradle to use 2 cores and 2 threads (4 threads in total), if this is going to be a problem for you, edit the ```org.gradle.workers.max=4``` in gradle.properties
+
 ## Built With
-Kotlin:       1.4.20
-
-Groovy:       2.5.12
-
-Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
-
 JVM:          11.0.11 (AdoptOpenJDK 11.0.11+9)
 
-
-(JVM is important since Gradle6.8.1 doesn't support java version 16 yet.)
+Note: Grade 6.8.1 does not support Java 16, please use OpenJDK 11 to build the mod
+OpenJDK 11 can be found here at [AdoptOpenJDK](https://adoptopenjdk.net/)
 
 ## Custom Loot Tables
 <small>**1.16.5**</small>
@@ -43,5 +41,4 @@ JVM:          11.0.11 (AdoptOpenJDK 11.0.11+9)
 * Added String to Village Chest Loot Tables
 
 ## Planned Changes
-* Add String and Spider Eye to Village Loot Tables
 * Upgrade to 1.17 once the forge version releases
