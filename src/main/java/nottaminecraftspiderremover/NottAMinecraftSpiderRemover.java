@@ -17,12 +17,11 @@ public class NottAMinecraftSpiderRemover {
 
     @SubscribeEvent
     public void denySpawns(LivingSpawnEvent event) {
-        if(event.getEntity().getType().equals(EntityType.SPIDER) || event.getEntity().getType().equals(EntityType.CAVE_SPIDER))
-            if(event.isCancelable()) {
+        if (event.getEntity().getType().equals(EntityType.SPIDER) || event.getEntity().getType().equals(EntityType.CAVE_SPIDER))
+            if (event.isCancelable()) {
                 event.setCanceled(true);
                 // System.out.println("Spider/Cave Spider Spawn Canceled");
-            }
-            else if(event.hasResult()) {
+            } else if (event.hasResult()) {
                 event.setResult(Event.Result.DENY);
                 // System.out.println("Spider/Cave Spider Spawn Denied");
             }
